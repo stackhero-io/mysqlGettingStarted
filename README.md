@@ -3,6 +3,7 @@
 Note: this example uses the new xdevapi library which uses the X protocol.
 
 It can work only with the official MySQL and not with MariaDB.
+A MariaDB version is available on this repository: [https://github.com/stackhero-io/mariadbGettingStarted](https://github.com/stackhero-io/mariadbGettingStarted).
 
 
 ## How to use
@@ -14,7 +15,9 @@ This example will connect to your MySQL server, create the database `stackherote
 
 2. Copy the file `.env-example` to `.env` and fill it with your credentials.
 
-3. Run the script: `npm run start`.
+3. Install dependencies: `npm install`.
+
+4. Run the script: `npm run start`.
 
 
 You can see the script code in the file `app.js` and see how it works to use it as an example.
