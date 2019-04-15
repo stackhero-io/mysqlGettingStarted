@@ -1,0 +1,16 @@
+{
+  "name": "getting-started-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Stackhero",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.15",
+    "dotenv": "^7.0.0",
+    "faker": "^4.1.0"
+  }
+}
