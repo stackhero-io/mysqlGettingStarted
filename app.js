@@ -31,7 +31,7 @@ const faker = require('faker');
     .existsInDatabase();
   if (!tableExists) {
     await session
-      .sql('CREATE TABLE `stackherotest`.`' + table + '` '
+      .sql('CREATE TABLE `stackherotest`.`users` '
         + '('
         + '`userId` INT UNSIGNED NOT NULL,'
         + '`name` VARCHAR(128) NOT NULL,'
